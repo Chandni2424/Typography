@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/*ol, ul {
+	list-style: none;*/
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #D4CEA7;
+}
+
+.top{
+	width: 100%;
+	background-color: #F76013;
+	padding: 30px 50px;
+}
+
+.navigation ul{
+	font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	
+
+}
+
+.navigation a{
+	text-decoration: none;
+	color: white;
+	padding-left: 45px;
+}
+
+.navigation li{
+	display: inline-block;
+
+}
+
+.col1{
+	display: flex;
+	padding-top: 25px;
+	justify-content: space-between;
+	/*justify-content: space-around;*/
+	/*align-items: stretch;*/
+}
+
+.box1{
+	background-color: #015879;
+	color: #C4CCA6;
+	padding-left: 30px;
+	padding-bottom: 100px;
+	padding-top: 20px;
+	width: 200px;
+	margin-left: 50px;
+	box-shadow: 10px 10px 8px 10px #7777;
+}
+
+.box1 li{
+	line-height: 1.5;
+}
+
+ul{
+	list-style-type: disc;
+}
+
+.menu {
+	padding-left: 25px;
+}
+
+.sub-menu{
+	padding-left: 30px; 
+}
+
+.list3{
+	background: url("../media/tick.png") no-repeat;
+	background-size: 22px;
+	list-style-type: none;
+	padding-left: 35px;
+	
+
+ }
+
+ .lastbox li{
+ 	line-height: 2;
+ }
+
+
+.col2{
+	margin-top: 30px;
+	padding-top: 30px;
+
+}
+
+.question{
+	padding-left: 40px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
+
+/*.question2{
+	padding-top: 10px;
+}*/
+
+.answer{
+	padding-left: 60px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	line-height: 1.5;
+
+}
+
+.question2 {
+	padding-left: 40px;
+	/*padding-bottom: 20px;*/
+	font-size: 30px;
+}
+
+.question3{
+	padding-left: 40px;
+	padding-bottom: 20px;
+	font-size: 30px;
+}
